@@ -1,3 +1,0 @@
-# local_group_policy #
-
-This is the local_group_policy module. It provides...
