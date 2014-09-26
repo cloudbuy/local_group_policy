@@ -1,5 +1,5 @@
 name    'cannonps-local_group_policy'
-version '1.0.0'
+version '1.0.1'
 source 'https://github.com/cannonps/local_group_policy'
 author 'Paul Cannon'
 license 'Apache 2.0'

@@ -1,5 +1,5 @@
 Puppet::Type.newtype(:local_group_policy) do
-  #confine :operatinsystme => { :windows ]
+  #confine :operatingsystem => { :windows }
   desc 'Puppet type that models the local group policy'
 
   ensurable
