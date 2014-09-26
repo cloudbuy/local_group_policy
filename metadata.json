@@ -1,50 +1,10 @@
 {
-  "author": "",
-  "checksums": {
-    "Rakefile": "f37e6131fe7de9a49b09d31596f5fbf1",
-    "lib/puppet/provider/local_group_policy/group_policy.rb": "5b0f300ed0d15eac58c35ba9f9f1cdb7",
-    "manifests/init.pp": "67d8bdbe838fbbf3357a209487486623",
-    "files/ReadPol.VBS": "306c67b02114da99d334574d67ab2ea3",
-    "lib/puppet/type/local_group_policy.rb": "15f56459b33c61e0dd5474cffed9f9a8",
-    "Modulefile": "993cdfa3fe42b30ee4ed26bac82c5953",
-    "spec/spec.opts": "a600ded995d948e393fbe2320ba8e51c",
-    "tests/init.pp": "7dd93e1e195121220422a10a68acc027",
-    "spec/spec_helper.rb": "3ea886dd135e120afa31e0aab12e85b0",
-    "README.md": "89c3bbab9df7f504a39c3c3a4b123c52",
-    "README.markdown": "21ba2d97f1d1bd22985214032505be74"
-  },
-  "dependencies": [],
-  "description": "",
-  "license": "",
-  "name": "paul-local_group_policy",
-  "project_page": "",
-  "source": "",
-  "summary": "",
-  "types": [
-    {
-      "properties": [
-        {
-          "name": "policy_template",
-          "doc": "Group Policy Template Name"
-        },
-        {
-          "name": "policy_settings",
-          "doc": "Group Policy Settings Text."
-        }
-      ],
-      "parameters": [
-        {
-          "name": "name",
-          "doc": "Group Policy  Setting Text"
-        }
-      ],
-      "providers": [
-        {
-          "name": "group_policy"
-        }
-      ],
-      "name": "local_group_policy"
-    }
-  ],
-  "version": "1.0.0"
+  "author": "Paul S Cannon",
+  "summary": "Local Group Policy Editor",
+  "license": "Apache 2.0",
+  "name": "cannonps-local_group_policy",
+  "project_page": "https://github.com/cannonps/local_group_policy",
+  "source": "https://github.com/cannonps/local_group_policy",
+  "summary": "Local Group Policy Editor",
+  "version": "1.0.1"
 }
